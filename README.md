@@ -64,7 +64,7 @@ This provides a quick example, please check the documentation section for full d
 
 Config.ts
 ```typescript
-import {Category,CategoryLogger,CategoryServiceFactory,CategoryConfiguration,LogLevel} from "typescript-logging";
+import {Category, CategoryConfiguration, CategoryLogger, CategoryServiceFactory, LogLevel} from "typescript-logging";
 
 // Optionally change default settings, in this example set default logging to Info.
 // Without changing configuration, categories will log to Error.
